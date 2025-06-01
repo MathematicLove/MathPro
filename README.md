@@ -1,25 +1,25 @@
 # ProMath calculator
 ## (in mvp process)
 
-    - Base operations:
-        - Sum
-        - Minus
-        - Multiply
-        - Division
+- Base operations:
+  - Sum
+  - Minus
+  - Multiply
+  - Division
 
-    - Trigonometry: 
-        - Sin()
-        - Cos()
-        - Tan()
-        - Ctg()
+- Trigonometry: 
+  - Sin()
+  - Cos()
+  - Tan()
+  - Ctg()
         
-    - ProOperations:
-        - Sqrt()
-        - in special pow
-        - Square 
+- ProOperations:
+  - Sqrt()
+  - in special pow
+  - Square 
     
-    - Math. Statistic:
-        - MSE
-        - MAE
-        - RMSE
-        - E[X]
+- Math. Statistic:
+  - MSE
+  - MAE
+  - RMSE
+  - E[X]
