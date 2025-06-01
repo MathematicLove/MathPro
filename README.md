@@ -2,24 +2,24 @@
 ## (in mvp process)
 
 - Base operations:
-        - Sum
-        - Minus
-        - Multiply
-        - Division
+ - Sum
+ - Minus
+ - Multiply
+ - Division
 
 - Trigonometry: 
-        - Sin()
-        - Cos()
-        - Tan()
-        - Ctg()
+ - Sin()
+ - Cos()
+ - Tan()
+ - Ctg()
         
 - ProOperations:
-        - Sqrt()
-        - in special pow
-        - Square 
+ - Sqrt()
+ - in special pow
+ - Square 
     
 - Math. Statistic:
-        - MSE
-        - MAE
-        - RMSE
-        - E[X]
+ - MSE
+ - MAE
+ - RMSE
+ - E[X]
