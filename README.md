@@ -2,7 +2,7 @@
 ## (in mvp process)
 
 - Base operations:
- - Sum
+  - Sum
  - Minus
  - Multiply
  - Division
