@@ -20,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		C546BE122DE4DEA1002A1687 /* MathPro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathPro; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57D732B2DEC8CB000EB311F /* example_apple_metal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = example_apple_metal.xcodeproj; sourceTree = "<group>"; };
+		C57D73302DEC8CB000EB311F /* example_apple_opengl2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = example_apple_opengl2.xcodeproj; sourceTree = "<group>"; };
+		C58EA61D2DEC889F004CFD4E /* example_apple_metal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = example_apple_metal.xcodeproj; sourceTree = "<group>"; };
+		C58EA6222DEC889F004CFD4E /* example_apple_opengl2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = example_apple_opengl2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -53,6 +57,34 @@
 			isa = PBXGroup;
 			children = (
 				C546BE122DE4DEA1002A1687 /* MathPro */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57D74002DEC8CB000EB311F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57D74022DEC8CB000EB311F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58EA6F12DEC889F004CFD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58EA6F32DEC889F004CFD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +140,24 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C546BE132DE4DEA1002A1687 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C58EA6F32DEC889F004CFD4E /* Products */;
+					ProjectRef = C58EA61D2DEC889F004CFD4E /* example_apple_metal.xcodeproj */;
+				},
+				{
+					ProductGroup = C57D74002DEC8CB000EB311F /* Products */;
+					ProjectRef = C57D732B2DEC8CB000EB311F /* example_apple_metal.xcodeproj */;
+				},
+				{
+					ProductGroup = C57D74022DEC8CB000EB311F /* Products */;
+					ProjectRef = C57D73302DEC8CB000EB311F /* example_apple_opengl2.xcodeproj */;
+				},
+				{
+					ProductGroup = C58EA6F12DEC889F004CFD4E /* Products */;
+					ProjectRef = C58EA6222DEC889F004CFD4E /* example_apple_opengl2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C546BE112DE4DEA1002A1687 /* MathPro */,
@@ -245,6 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathPro/imgui/examples/libs/glfw/lib-vc2010-32",
+					"$(PROJECT_DIR)/MathPro/imgui/examples/libs/glfw/lib-vc2010-64",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +308,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathPro/imgui/examples/libs/glfw/lib-vc2010-32",
+					"$(PROJECT_DIR)/MathPro/imgui/examples/libs/glfw/lib-vc2010-64",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
